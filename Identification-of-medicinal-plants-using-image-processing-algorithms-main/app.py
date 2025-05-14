@@ -64,8 +64,8 @@ def fetch_leaf_description(leaf_species):
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-model_species = load_model('crop (1).h5')
-model_species.load_weights('crop_weights (1).h5')
+# model_species = load_model('crop (1).h5')
+# model_species.load_weights('crop_weights (1).h5')
 
 model_segment = load_model('leaf.h5')
 model_segment.load_weights('leaf_weights.h5')
